@@ -15,7 +15,7 @@
         <th scope="col">Publication</th>
         <th scope="col">Price</th>
         <th scope="col">Quantity</th>
-        <th scope="col">Name</th>
+        <th scope="col">Name Cate</th>
         <th scope="col">Acction</th>
       </tr>
     </thead>
@@ -33,7 +33,7 @@
         <td>{{$item->quantity}}</td>
         <td>{{$item->name}}</td>
         <td>
-            <a href="{{route('book.edit',$item->id)}}"class='btn btn-primary'>Sửa</a>
+            <a href="{{route('book.edit',$item->id)}}"class='btn btn-info'>Sửa</a>
             <form action="{{route('book.destroy',$item->id)}}" method="POST">
                 @csrf
                 @method('DELETE')

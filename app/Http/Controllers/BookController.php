@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\DB;
 
 class BookController extends Controller
 {
-    //
+    //Trang index
     public function index(){
         $books = DB::table('books')->join('categories','cate_id','=','categories.id')
                     ->select('books.*','name')->limit(10)->orderByDesc('id')->get();
