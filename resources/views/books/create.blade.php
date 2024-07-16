@@ -14,26 +14,31 @@
               <label for="" class="form-label"> URL Thumbnail</label>
               <input type="text" class="form-control" id="" name="thumbnail" >
             </div>
-            <div class="mb-3">
+            <div class="row">
+            <div class="col mb-3">
               <label for="" class="form-label">Author</label>
               <input type="text" class="form-control" id="" name="author" >
             </div>
-            <div class="mb-3">
+
+            <div class="col mb-3">
               <label for="" class="form-label">Publisher</label>
               <input type="text" class="form-control" id="" name="publisher" >
             </div>
+          </div>
             <div class="mb-3">
               <label for="" class="form-label">Publication</label>
               <input type="date" class="form-control" id="" name="publication" >
             </div>
-            <div class="mb-3">
+            <div class="row">
+            <div class="col mb-3">
               <label for="" class="form-label">Price</label>
               <input type="number" step="0.1" class="form-control" id="" name="price" >
             </div>
-            <div class="mb-3">
+            <div class="col mb-3">
               <label for="" class="form-label">Quantity</label>
               <input type="number"  class="form-control" id="" name="quantity" >
             </div>
+          </div>
             <div class="mb-3">
               <label for="" class="form-label">Thể loại</label>
               <select name="cate_id" class="form-control" id="">
